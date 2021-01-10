@@ -1,0 +1,94 @@
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.foto_principal {
+  background-image: url('../img/1.jpg'); 
+  background-color: #452aa5; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0rem 60rem;
+  width: 100%;
+}
+
+.carousel-indicators {
+  top: 120%;
+} 
+
+.footer { 
+  height: 15%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+
+}
+a:hover {
+  color: #ffff ;
+  text-decoration: none;
+  background-color: transparent;   
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+  
+}
+.ripley {
+    
+  margin: 0 0 0 5rem;
+  
+}
+.opentek {
+    
+  margin: 0 0 0 6rem;
+}
+h4 {
+  font-weight: 700;
+  
+}
+
+@media (max-width: 375px) { 
+.foto_principal {
+  background-image: url('../img/1.jpg'); 
+  background-color: red; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0rem 26rem;
+  width: 100%;
+}  
+
+.footer {
+  height: 17%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+}
+
+.dim { 
+  margin: 0 0 0 1rem;
+}
+.ripley { 
+  margin: 0 0 0 0rem;
+  width: 100%;
+}
+.barik {
+    
+  margin: 0 0 0 -6rem;
+ 
+}
+.opentek {  
+  margin: 0 0 0 -1rem;
+
+}
+body {
+  overflow-x: hidden;
+  width:100%;
+} 
+
+
+} 
