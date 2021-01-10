@@ -63,7 +63,7 @@ h4 {
 }
 
 @media (max-width: 375px) { 
-.foto_principal {
+/* .foto_principal {
     background-image: url(../img/1.jpg);
     background-color: red;
     background-repeat: no-repeat;
@@ -71,6 +71,19 @@ h4 {
     max-width: 100%;
     background-position: center;
     padding: 22rem 4rem 4rem 13rem;
+
+}  */
+
+.foto_principal {
+    background-image: url(../img/1.jpg);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 118%;
+    margin: 1rem 2rem 2rem 3rem;
+    position: relative;
+    margin-left: -18%;
+  padding: 22rem 4rem 4rem 13rem;
 
 }  
 
