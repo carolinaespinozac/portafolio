@@ -14,8 +14,17 @@ body {
   background-position: center;
   padding: 5rem 0rem 60rem;
   width: 100%;
-}
+}  
+.foto_principal {
+  background-image: url('../img/1.jpg'); 
+  background-color: blue; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 5rem 0rem 60rem;
+  background-position: center;
 
+}  
 .carousel-indicators {
   top: 120%;
 } 
@@ -55,13 +64,14 @@ h4 {
 
 @media (max-width: 375px) { 
 .foto_principal {
-  background-image: url('../img/1.jpg'); 
-  background-color: red; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 5rem 0rem 26rem;
-  width: 100%;
+    background-image: url(../img/1.jpg);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    padding: 22rem 4rem 4rem 13rem;
+
 }  
 
 .footer {
@@ -91,7 +101,7 @@ h4 {
 body {
   overflow-x: hidden;
   width:100%;
-} 
+}   
 
 
 } 
