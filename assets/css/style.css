@@ -49,6 +49,13 @@ h4 {
   font-weight: 700;
   
 }
+body {
+  overflow-x: hidden;
+  width:100%;
+} 
+
+
+
 
 @media (max-width: 375px) { 
 .foto_principal {
